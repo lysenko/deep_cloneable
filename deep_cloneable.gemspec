@@ -57,7 +57,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<activerecord>, ["< 5.0.0", ">= 3.1.0"])
-      s.add_runtime_dependency(%q<i18n>, ["~> 0.6.5"])
+      s.add_runtime_dependency(%q<i18n>, ["~> 0.7.0"])
     else
       s.add_dependency(%q<activerecord>, ["< 5.0.0", ">= 3.1.0"])
       s.add_dependency(%q<i18n>, ["~> 0.7.0"])
